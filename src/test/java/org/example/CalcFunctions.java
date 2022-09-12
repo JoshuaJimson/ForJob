@@ -1,11 +1,26 @@
 package org.example;
 
 public class CalcFunctions {
-    public static void main(String[] args){
-        System.out.println("First");
-        System.out.println("Conflict");
-        System.out.println("Can stash Resolve Conflict from local it self");
-        System.out.println("Stash can resolve conflicts locally");
-    }
+    public int result = 0;
 
+    public int add(int num1,int num2) {
+        result=num1+num2;
+        return result;
+    }
+    public int sub(int num1,int num2) {
+        result=num1-num2;
+        return result;
+    }
+    public int div(int num1,int num2) {
+        result=num1/num2;
+        return result;
+    }
+    public int mul(int num1,int num2) {
+        result=num1*num2;
+        return result;
+    }
+    public int mod(int num1,int num2) {
+        result=num1%num2;
+        return result;
+    }
 }
