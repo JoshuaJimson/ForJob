@@ -4,7 +4,7 @@ public class StringSpace {
     public static void main(String[] args) {
         String a = "I am a good boy";
         String b = a.replace(" ", "");
-        System.out.println("removing spaces Method 1 \n" + b);
+        System.out.println("removing spaces Method One \n" + b);
         String rev = "";
         for (int i = 0; i < a.length(); i++) {
             char t = a.charAt(i);
